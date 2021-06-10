@@ -1,6 +1,6 @@
 .card {
   width: 100%;
-  max-width: 483px;
+  max-width: 573px;
   background-color: #F8FAFC;
   padding: 54px 45px 37px;
   transition: all 500ms ease-out;
@@ -64,8 +64,10 @@
 
 .card__figure {
   position: absolute;
-  top: 13px;
-  left: 13px;
+  top: 15px;
+  left: 15px;
+  height: 16px;
+  width: 18px;
 }
 
 .card__product-name {
@@ -89,3 +91,17 @@
 .card__product-info {
   text-align: center;
 }
+
+.card__container-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.card__price {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+

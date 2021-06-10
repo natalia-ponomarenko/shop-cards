@@ -1,0 +1,44 @@
+.colorPicker {
+  width: 258px;
+  list-style: none;
+}
+
+.colorPicker__button {
+  font-size: 14px;
+  padding: 8px 20px;
+  text-align: left;
+  width: 258px;
+  background-color: #FFF;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border: none;
+  background: url('../../images/15.png')no-repeat right;
+}
+
+
+
+.colorPicker__dropdown {
+  font-size: 14px;
+  list-style: none;
+  padding: 0 20px;
+  background-color: #FFF;
+  position: relative;
+  bottom: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  z-index: 10;
+}
+
+.colorPicker__dropdown:hover,
+.colorPicker__button:hover {
+  cursor: pointer;
+}
+
+.colorPicker__item {
+  padding: 7px 0;
+}
+
+.colorPicker__item:hover {
+  background-color: #F3F8FC;
+  cursor: pointer;
+}
