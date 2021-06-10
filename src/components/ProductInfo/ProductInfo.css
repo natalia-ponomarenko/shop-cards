@@ -1,0 +1,20 @@
+.product {
+  text-align: center;
+}
+
+.product__name {
+  margin-top: 25px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2C2C2C;
+}
+
+.product__description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2C2C2C;
+  text-align: left;
+}

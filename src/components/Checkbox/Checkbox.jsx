@@ -1,7 +1,7 @@
 import React from 'react';
 import './Checkbox.css';
 
-export class CheckBoxGroup extends React.Component {
+  export class CheckBox extends React.Component {
   state = {
       oneHundred: false,
       twoHundred: false,
