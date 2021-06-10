@@ -1,7 +1,7 @@
 import React from 'react';
 import './Checkbox.css';
 
-  export class CheckBox extends React.Component {
+export class CheckBox extends React.Component {
   state = {
       oneHundred: false,
       twoHundred: false,
@@ -31,8 +31,8 @@ import './Checkbox.css';
           <label htmlFor="oneHundred" className="checkbox__label">
             100 мл
           </label>
-        </div>
-        <div className="checkbox__checkbox-group">
+      </div>
+      <div className="checkbox__checkbox-group">
           <input
             type="checkbox"
             id="twoHundred"
@@ -44,8 +44,8 @@ import './Checkbox.css';
           <label htmlFor="twoHundred" className="checkbox__label">
             200 мл
           </label>
-        </div>
-        <div className="checkbox__checkbox-group">
+      </div>
+      <div className="checkbox__checkbox-group">
           <input
             type="checkbox"
             id="threeHundred"
@@ -53,12 +53,12 @@ import './Checkbox.css';
             checked={this.threeHundred}
             onChange={this.handleCheckBoxChange}
             className="checkbox__checkmark"
-            />
+          />
           <label htmlFor="threeHundred" className="checkbox__label">
             300 мл
           </label>
-        </div>
+      </div>
     </div>
-    )
+    );
   }
 }
