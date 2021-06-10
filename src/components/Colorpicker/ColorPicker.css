@@ -13,20 +13,19 @@
   border-top-right-radius: 15px;
   border: none;
   background: url('../../images/15.png')no-repeat right;
+  position: relative;
 }
 
-
-
 .colorPicker__dropdown {
-  font-size: 14px;
   list-style: none;
   padding: 0 20px;
   background-color: #FFF;
-  position: relative;
-  bottom: 20px;
+  position: absolute;
+  bottom: 90px;
+  width: 258px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  z-index: 10;
+  z-index: 1;
 }
 
 .colorPicker__dropdown:hover,
@@ -36,6 +35,9 @@
 
 .colorPicker__item {
   padding: 7px 0;
+  font-weight: 500;
+  font-size: 14px;
+  color: #2C2C2C;
 }
 
 .colorPicker__item:hover {

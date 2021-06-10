@@ -1,10 +1,11 @@
 import React from 'react';
 import './Checkbox.css';
+
 export class CheckBoxGroup extends React.Component {
   state = {
       oneHundred: false,
       twoHundred: false,
-      threeHundred: false
+      threeHundred: false,
     }
 
   handleCheckBoxChange = (event) => {
@@ -22,10 +23,10 @@ export class CheckBoxGroup extends React.Component {
             type="checkbox"
             id="oneHundred"
             name="oneHundred"
-            checked={this.oneHundred}
+            checked="checked"
             onChange={this.handleCheckBoxChange}
             className="checkbox__checkmark"
-            defaultChecked={this.oneHundred}
+            onClick={false}
           />
           <label htmlFor="oneHundred" className="checkbox__label">
             100 мл
@@ -58,6 +59,6 @@ export class CheckBoxGroup extends React.Component {
           </label>
         </div>
     </div>
-  )
+    )
   }
 }
