@@ -5,6 +5,7 @@
   padding: 54px 45px 37px;
   transition: all 500ms ease-out;
   margin: 10px;
+  position: relative;
 }
 
 .card__container-price {
